@@ -15,5 +15,5 @@ ln -s $INIT_DIR/odoo.init $INIT_DIR/../rc4.d/S$DAEMON_NUMBER$DAEMON_NAME
 ln -s $INIT_DIR/odoo.init $INIT_DIR/../rc5.d/S$DAEMON_NUMBER$DAEMON_NAME
 ln -s $INIT_DIR/odoo.init $INIT_DIR/../rc6.d/K$DAEMON_NUMBER$DAEMON_NAME
 ln -s $INIT_DIR/odoo.init $INIT_DIR/../rc0.d/K$DAEMON_NUMBER$DAEMON_NAME
-echo "Scripts de Inicialização Habilitados!
+echo "Scripts de Inicialização Habilitados!"
 
