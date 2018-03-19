@@ -1,0 +1,15 @@
+[Unit]
+Description=Odoo - HGSOFT
+After=odoo.target
+
+[Service]
+User=odoo
+Group=odoo
+Type=simple
+WorkingDirectory=/opt/hgsoft/10/prd/
+ExecStart=/usr/bin/python /opt/hgsoft/10/prd/odoo/odoo-bin.py -c /opt/hgosft/10/prd/conf/odoo.conf 
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
